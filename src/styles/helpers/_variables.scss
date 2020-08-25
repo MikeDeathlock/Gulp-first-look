@@ -1,4 +1,4 @@
-
+/*
 //colors
 
 //Primary
@@ -40,6 +40,72 @@ $pr4-dark-2:darken($primary-4,20%);
 //darken-3
 $pr1-dark-3:darken($primary-1,33%);
 $pr2-dark-3:darken($primary-2,42%);
-$pr3-dark-3:#4a1c0e;
+$pr3-dark-3:darken($primary-3,49%);
+$pr4-dark-3:darken($primary-4,30%);
 
+*/
+
+//colors
+
+//Primary
+$primary-1:#03a9f4;
+$primary-2:#f75e2e;
+$primary-3:#ecfa4d;
+$primary-4:#656a70;
+
+//lighten-1
+$pr1-light-1:mix(#fff,$primary-1,40%);
+$pr2-light-1:mix(#fff,$primary-2,40%);
+$pr3-light-1:mix(#fff,$primary-3,40%);
+$pr4-light-1:mix(#fff,$primary-4,40%);
+
+//lighten-2
+$pr1-light-2:mix(#fff,$primary-1,75%);
+$pr2-light-2:mix(#fff,$primary-2,75%);
+$pr3-light-2:mix(#fff,$primary-3,75%);
+$pr4-light-2:mix(#fff,$primary-4,75%);
+
+//lighten-3
+$pr1-light-3:mix(#fff,$primary-1,90%);
+$pr2-light-3:mix(#fff,$primary-2,90%);
+$pr3-light-3:mix(#fff,$primary-3,90%);
+$pr4-light-3:mix(#fff,$primary-4,90%);
+
+//darken-1
+$pr1-dark-1:mix(#000,$primary-1,20%);
+$pr2-dark-1:mix(#000,$primary-2,20%);
+$pr3-dark-1:mix(#000,$primary-3,20%);
+$pr4-dark-1:mix(#000,$primary-4,20%);
+
+//darken-2
+$pr1-dark-2:mix(#000,$primary-1,50%);
+$pr2-dark-2:mix(#000,$primary-2,50%);
+$pr3-dark-2:mix(#000,$primary-3,50%);
+$pr4-dark-2:mix(#000,$primary-4,50%);
+
+//darken-3
+$pr1-dark-3:mix(#000,$primary-1,70%);
+$pr2-dark-3:mix(#000,$primary-2,70%);
+$pr3-dark-3:mix(#000,$primary-3,70%);
+$pr4-dark-3:mix(#000,$primary-4,70%);
+
+
+
+//fonts
+
+//Poppins
+$font-regular:'Poppins-Regular';
+$font-regular-b:'Poppins-B';
+$font-regular-m:'Poppins-M';
+$font-regular-m:'Poppins-L';
+$font-regular-m:'Poppins-SB';
+
+//Open Sans
+$font-open-sans-r:'Open Sans';
+$font-open-sans-b:'Open Sans-B';
+$font-open-sans-i:'Open Sans-I';
+$font-open-sans-l:'Open Sans-L';
+
+//Museo Sans 500
+$font-museo-r:'Museo Sans 500';
 

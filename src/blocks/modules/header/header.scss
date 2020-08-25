@@ -1,108 +1,149 @@
-.colors{
+.colors {
     margin-top: 30px;
     margin-left: 30px;
 }
-.colors>div{
+
+.colors>div {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.colors>div>p{
+
+.colors>div>p {
     display: inline-block;
-    width: 75px;    
-    margin: 0px;
+    width: 75px;
+    margin: 0px;    
 }
-.colors>div>div{
+
+.colors>div>span {
+    display: inline-block;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+}
+
+.colors>div>div {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-left: 15px;
-    border: 1px solid gray;
+    margin-right: 15px;
 }
-.pr-1{
+
+.pr-1 {
     background-color: $primary-1;
 }
-.pr-2{
+
+.pr-2 {
     background-color: $primary-2;
 }
-.pr-3{
+
+.pr-3 {
     background-color: $primary-3;
 }
-.pr-4{
+
+.pr-4 {
     background-color: $primary-4;
 }
+
 //lighten-1
-.pr-1-light-1{
+.pr-1-light-1 {
     background-color: $pr1-light-1;
 }
-.pr-2-light-1{
+
+.pr-2-light-1 {
     background-color: $pr2-light-1;
 }
-.pr-3-light-1{
+
+.pr-3-light-1 {
     background-color: $pr3-light-1;
 }
-.pr-4-light-1{
+
+.pr-4-light-1 {
     background-color: $pr4-light-1;
 }
+
 //lighten-2
-.pr-1-light-2{
+.pr-1-light-2 {
     background-color: $pr1-light-2;
 }
-.pr-2-light-2{
+
+.pr-2-light-2 {
     background-color: $pr2-light-2;
 }
-.pr-3-light-2{
+
+.pr-3-light-2 {
     background-color: $pr3-light-2;
 }
-.pr-4-light-2{
+
+.pr-4-light-2 {
     background-color: $pr4-light-2;
 }
+
 //lighten-3
-.pr-1-light-3{
+.pr-1-light-3 {
     background-color: $pr1-light-3;
 }
-.pr-2-light-3{
+
+.pr-2-light-3 {
     background-color: $pr2-light-3;
 }
-.pr-3-light-3{
+
+.pr-3-light-3 {
     background-color: $pr3-light-3;
 }
-.pr-4-light-3{
+
+.pr-4-light-3 {
     background-color: $pr4-light-3;
 }
+
 //darken-1
-.pr-1-dark-1{
+.pr-1-dark-1 {
     background-color: $pr1-dark-1;
 }
-.pr-2-dark-1{
+
+.pr-2-dark-1 {
     background-color: $pr2-dark-1;
 }
-.pr-3-dark-1{
+
+.pr-3-dark-1 {
     background-color: $pr3-dark-1;
 }
-.pr-4-dark-1{
+
+.pr-4-dark-1 {
     background-color: $pr4-dark-1;
 }
+
 //darken-2
-.pr-1-dark-2{
+.pr-1-dark-2 {
     background-color: $pr1-dark-2;
 }
-.pr-2-dark-2{
+
+.pr-2-dark-2 {
     background-color: $pr2-dark-2;
 }
-.pr-3-dark-2{
+
+.pr-3-dark-2 {
     background-color: $pr3-dark-2;
 }
-.pr-4-dark-2{
+
+.pr-4-dark-2 {
     background-color: $pr4-dark-2;
 }
+
 //darken-3
-.pr-1-dark-3{
+.pr-1-dark-3 {
     background-color: $pr1-dark-3;
 }
-.pr-2-dark-3{
+
+.pr-2-dark-3 {
     background-color: $pr2-dark-3;
 }
-.pr-3-dark-3{
+
+.pr-3-dark-3 {
     background-color: $pr3-dark-3;
+}
+
+.pr-4-dark-3 {
+    background-color: $pr4-dark-3;
 }
