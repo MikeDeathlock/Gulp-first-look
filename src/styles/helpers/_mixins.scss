@@ -1,0 +1,24 @@
+/*
+%head-1 {
+    font-size: 35px;
+    font-family: $font-bold;
+    color: $pr4-dark-3;
+}
+*/ 
+@mixin heading($size,$font,$color,$pading) {
+    font-size: $size;
+    font-family: $font;
+    color: $color;
+    padding: $pading;
+}
+
+@mixin btn($width,$bg,$f-size,$color,$border:none,$b-radius:5px,$height:50px,$font:$font-medium) {
+    width: $width;
+    background-color: $bg;
+    font-size: $f-size;
+    color: $color;
+    border: $border;
+    border-radius: $b-radius;
+    height: $height;
+    font-family: $font;
+}

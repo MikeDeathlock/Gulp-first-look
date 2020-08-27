@@ -52,6 +52,8 @@ $primary-1:#03a9f4;
 $primary-2:#f75e2e;
 $primary-3:#ecfa4d;
 $primary-4:#656a70;
+$light:#fff;
+$dark:#000;
 
 //lighten-1
 $pr1-light-1:mix(#fff,$primary-1,40%);
@@ -95,17 +97,23 @@ $pr4-dark-3:mix(#000,$primary-4,70%);
 
 //Poppins
 $font-regular:'Poppins-Regular';
-$font-regular-b:'Poppins-B';
-$font-regular-m:'Poppins-M';
-$font-regular-m:'Poppins-L';
-$font-regular-m:'Poppins-SB';
+$font-bold:'Poppins-B';
+$font-medium:'Poppins-M';
+$font-light:'Poppins-L';
+$font-semibold:'Poppins-SB';
 
+// secondary font
 //Open Sans
-$font-open-sans-r:'Open Sans';
-$font-open-sans-b:'Open Sans-B';
-$font-open-sans-i:'Open Sans-I';
-$font-open-sans-l:'Open Sans-L';
+$font-secondary-regular:'Open Sans';
+$font-secondary-bold:'Open Sans-B';
+$font-secondary-italic:'Open Sans-I';
+$font-secondary-light:'Open Sans-L';
 
+//third font
 //Museo Sans 500
-$font-museo-r:'Museo Sans 500';
+$font-third-regular:'Museo Sans 500';
+
+//fourth font
+//Gabriola
+$font-fourth-regular:'Gabriola';
 
