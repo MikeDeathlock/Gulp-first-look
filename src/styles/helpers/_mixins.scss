@@ -22,3 +22,13 @@
     height: $height;
     font-family: $font;
 }
+
+@mixin inp($bg,$border,$padding-le,$width:320px,$height:50px,$b-radius:5px,$font:$font-regular) {
+    background-color: $bg;
+    border: $border;
+    padding-left: $padding-le;
+    width: $width;
+    height: $height;
+    border-radius: $b-radius;
+    font-family: $font;
+}

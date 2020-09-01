@@ -88,7 +88,7 @@
 
 }
 
-.for-list{
+.for-list {
     margin-left: 30px;
     width: 600px;
     display: flex;
@@ -124,8 +124,149 @@
     }
 }
 
+.input-elements {
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    h3 {
+        font-family: $font-bold;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    form {
+
+        .first-input {
+            margin-bottom: 20px;
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .second-input {
+            margin-bottom: 20px;
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .third-input {
+            margin-bottom: 20px;
+
+            .success-input {
+                display: inline-block;
+                position: relative;
+
+                .input-3 {
+                    font-size: 13px;
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 14px;
+                    height: 9px;
+                    border: 1px solid rgb(71, 238, 174);
+                    border-width: 0 0 1px 1px;
+                    transform: rotate(-45deg);
+                    position: absolute;
+                    right: 15px;
+                    top: 16px;
+                }
+            }
+        }
+
+        .fourth-input {
+            margin-bottom: 20px;
+
+            .error-input {
+                display: inline-block;
+                position: relative;
+
+                .input-4 {
+                    font-size: 13px;
+                }
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 1px;
+                    height: 15px;
+                    background-color: $primary-2;
+                    position: absolute;
+                    right: 15px;
+                    top: 16px;
+                    transform: rotate(45deg);
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 1px;
+                    height: 15px;
+                    background-color: $primary-2;
+                    position: absolute;
+                    right: 15px;
+                    top: 16px;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+
+        .fifth-input {
+            margin-bottom: 20px;
+
+            .number-input {
+                display: inline-block;
+                position: relative;
+
+                .input-5 {
+                    font-size: 13px;
+                }
+
+                .b-1,
+                .b-2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 5px;
+                    background-color: $light;
+                    font-size: 28px;
+                    font-family: $font-regular;
+                    position: absolute;
+                    border: 1px solid $pr4-light-2;
+                    color: $pr4-light-2;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .b-1 {
+                    top: 0px;
+                    right: 0px;
+                }
+
+                .b-2 {
+                    top: 0px;
+                    left: 0px;
+                }
+            }
+        }
+        .first-checkbox {
+            margin-bottom: 20px;
+        }
+    }
+}
+
 .buttons {
-    margin-left: 30px;    
+    margin-left: 30px;
 
     h3 {
         font-family: $font-bold;
@@ -138,13 +279,100 @@
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 30px;
-        
-        span{
+
+        span {
             display: inline-block;
             width: 110px;
         }
+
         button {
             margin-right: 20px;
+        }
+    }
+}
+
+.tabs-content {
+    margin-left: 30px;
+    max-width: 600px;
+
+    h3 {
+        font-family: $font-bold;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .tabs{
+        margin: 0 0 50px 0;
+
+        .tabs__items {
+            display: flex;            
+            
+            .tabs__item {
+                flex: 0 1 25%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                border-bottom: 1px solid $pr4-light-2;    
+                
+
+                span {
+                    position: relative;
+                    z-index: 2;
+                    font-family: $font-medium;
+                    font-size: 14px;
+                    color: $pr4-light-1;
+                    
+                }
+            }
+        }
+        .tabs__items a{
+            text-decoration: none;            
+        }
+        .tabs_body {
+
+            .tabs_block{
+                padding: 20px;
+                font-size: 18px;
+                line-height: 24px;
+                display: none;
+                position: relative;
+                font-size: 15px;
+                font-family: $font-regular;
+                color: $primary-4;
+
+                
+                &:nth-child(1)::before {
+                    border-bottom: 2px solid $primary-2;
+                    left: 0;
+                }
+                
+                &:nth-child(2)::before {
+                    border-bottom: 2px solid $primary-2;
+                    left: 25%;
+                }
+                
+                &:nth-child(3)::before {
+                    border-bottom: 2px solid $primary-2;
+                    right: 25%;
+                }
+                
+                &:nth-child(4)::before {
+                    border-bottom: 2px solid $primary-2;
+                    right: 0;
+                }
+                &:target {
+                    display: block;
+                }
+                &::before {
+                    content: '';
+                    height: 50px;
+                    width: 25%;
+                    position: absolute;
+                    top: -50px;
+                }
+            }
+            
         }
     }
 }

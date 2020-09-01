@@ -43,7 +43,7 @@ p {
     @include heading(14px, $font-regular, $pr4-dark-1, 0px);
 }
 
-ul {
+.styles-for-list {
     list-style-type: none;
 
     li {
@@ -72,7 +72,7 @@ ul {
             height: 4px;
             border: 1px solid $light;
             border-width: 0 0 1px 1px;
-            transform: rotate(-45deg);            
+            transform: rotate(-45deg);
             position: absolute;
             left: 3px;
             top: 8px;
@@ -108,7 +108,148 @@ ul {
     }
 }
 
-//@mixin btn($width,$bg,$color,$border:none,$b-radius:5px,$height:50px,$font:$font-medium)
+//@mixin inp($bg,$border,$padding-le,$width:320px,$height:50px,$b-radius:5px,$font:$font-regular)
+.input-1 {
+    @include inp($pr1-light-3, 1px solid $pr4-light-2, 20px);
+
+    &:hover {
+        background-color: $light;
+    }
+
+    &:focus {
+        outline: 2px solid $pr1-light-1;
+        border: none;
+
+    }
+
+    &:active {
+        outline: 2px solid $pr1-light-1;
+        border: none;
+
+    }
+}
+
+.input-2 {
+    @include inp($pr1-light-3, 1px solid $pr4-light-2, 20px);
+
+    &:hover {
+        background-color: $light;
+    }
+
+    &:focus {
+        outline: 2px solid $pr1-light-1;
+        border: none;
+        border-radius: 5px;
+    }
+
+    &:active {
+        outline: 2px solid $pr1-light-1;
+        border: none;
+
+    }
+
+}
+
+.input-3 {
+    @include inp($light, 1px solid rgb(71, 238, 174), 20px);
+    color: rgb(71, 238, 174);
+
+    &:focus {
+        outline: none;
+
+    }
+
+    &:active {
+        outline: none;
+        border: none;
+    }
+
+
+}
+
+.input-4 {
+    @include inp($light, 1px solid $primary-2, 20px);
+    color: $primary-2;
+
+    &:focus {
+        outline: none;
+
+    }
+
+    &:active {
+        outline: none;
+        border: none;
+    }
+
+
+}
+
+.input-5 {
+    @include inp($pr1-light-3, 1px solid $pr4-light-2, 0px);
+    text-align: center;
+    color: $pr4-light-2;
+
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        outline: none;
+    }
+
+}
+//@mixin inp($bg,$border,$padding-le,$width:320px,$height:50px,$b-radius:5px,$font:$font-regular)
+.input-6 {
+    @include inp($light, 1px solid $pr4-light-2, 0px, 25px, 25px, 2px);
+    
+
+    &:hover {    
+        outline: 1px solid $primary-1;
+        border: none;
+    }
+
+
+    &:focus {
+        background-color: $primary-1;
+        border: none;
+    }
+
+    &:active {
+        background-color: $primary-1;
+    }
+
+    &[disabled] {
+        background-color: $pr4-light-2;
+    }
+
+}
+
+.input-7 {
+    @include inp($light, 1px solid $pr4-light-2, 0px, 25px, 25px);
+    
+
+    &:hover {    
+        border: none;
+    }
+
+
+    &:focus {
+        background-color: $primary-1;
+        border: none;
+    }
+
+    &:active {
+        background-color: $primary-1;
+    }
+
+    &[disabled] {
+        background-color: $pr4-light-2;
+    }
+
+}
+
+
 .btn-1 {
     @include btn(220px, $primary-2, 14px, $light, none, 5px, 50px, $font-semibold);
     text-transform: uppercase;
