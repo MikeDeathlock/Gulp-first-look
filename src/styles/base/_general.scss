@@ -199,56 +199,155 @@ p {
     }
 
 }
-//@mixin inp($bg,$border,$padding-le,$width:320px,$height:50px,$b-radius:5px,$font:$font-regular)
-.input-6 {
-    @include inp($light, 1px solid $pr4-light-2, 0px, 25px, 25px, 2px);
-    
 
-    &:hover {    
-        outline: 1px solid $primary-1;
-        border: none;
-    }
+//checkbox
 
+input[type=checkbox]+label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+    position: relative;
+}
 
-    &:focus {
-        background-color: $primary-1;
-        border: none;
-    }
+input[type=checkbox] {
+    display: none;
+}
 
-    &:active {
-        background-color: $primary-1;
-    }
-
-    &[disabled] {
-        background-color: $pr4-light-2;
-    }
+input[type=checkbox]+label::before {
+    content: "";
+    border: 1px solid $pr4-light-1;
+    border-radius: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 
 }
 
-.input-7 {
-    @include inp($light, 1px solid $pr4-light-2, 0px, 25px, 25px);
-    
+input[type=checkbox]:checked+label::before {
+    background-color: $primary-1;
+    border-color: $primary-1;
+}
 
-    &:hover {    
-        border: none;
-    }
+input[type=checkbox]:hover+label::before {
+    background-color: none;
+    border-color: $primary-1;
+}
 
+input[type=checkbox]:disabled+label::before {
+    background-color: $pr4-light-1;
+    border-color: $pr4-light-1;
+}
 
-    &:focus {
-        background-color: $primary-1;
-        border: none;
-    }
+input[type=checkbox]:checked:disabled+label::before {
+    background-color: $pr4-light-1;
+    border-color: $pr4-light-1;
+}
 
-    &:active {
-        background-color: $primary-1;
-    }
+input[type=checkbox]:checked+label::after {
+    content: "";
+    border: 3px solid $light;
+    border-style: none none solid solid;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    transition: .2s;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
 
-    &[disabled] {
-        background-color: $pr4-light-2;
-    }
+input[type=checkbox]:checked:disabled+label::after {
+    content: "";
+    border: 3px solid $light;
+    border-style: none none solid solid;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    transition: .2s;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+//radio
+
+input[type=radio]+label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]+label::before {
+    content: "";
+    border: 1px solid $pr4-light-1;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 
 }
 
+input[type=radio]:checked+label::before {
+    background-color: none;
+    border-color: $primary-1;
+}
+
+input[type=radio]:hover+label::before {
+    background-color: none;
+    border-color: $primary-1;
+}
+
+input[type=radio]:disabled+label::before {
+    background-color: $light;
+    border-color: $pr4-light-1;
+}
+
+input[type=radio]:checked:disabled+label::before {
+    background-color: $light;
+    border-color: $pr4-light-1;
+}
+
+input[type=radio]:checked+label::after {
+    content: "";
+    background-color: $primary-1;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+input[type=radio]:checked:disabled+label::after {
+    content: "";
+    background-color: $pr4-light-1;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
 
 .btn-1 {
     @include btn(220px, $primary-2, 14px, $light, none, 5px, 50px, $font-semibold);
@@ -395,3 +494,123 @@ p {
         border: none;
     }
 }
+
+//tabs
+
+.tabs {
+    margin: 0 0 50px 0;
+
+    .tabs__items {
+        display: flex;
+
+        .tabs__item {
+            flex: 0 1 25%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            border-bottom: 1px solid $pr4-light-2;
+
+
+            span {
+                position: relative;
+                z-index: 2;
+                font-family: $font-medium;
+                font-size: 14px;
+                color: $pr4-light-1;
+
+            }
+        }
+    }
+
+    .tabs__items a {
+        text-decoration: none;
+    }
+
+    .tabs_body {
+
+        .tabs_block {
+            padding: 20px;
+            font-size: 18px;
+            line-height: 24px;
+            display: none;
+            position: relative;
+            font-size: 15px;
+            font-family: $font-regular;
+            color: $primary-4;
+
+
+            &:nth-child(1)::before {
+                border-bottom: 2px solid $primary-2;
+                left: 0;
+            }
+
+            &:nth-child(2)::before {
+                border-bottom: 2px solid $primary-2;
+                left: 25%;
+            }
+
+            &:nth-child(3)::before {
+                border-bottom: 2px solid $primary-2;
+                right: 25%;
+            }
+
+            &:nth-child(4)::before {
+                border-bottom: 2px solid $primary-2;
+                right: 0;
+            }
+
+            &:target {
+                display: block;
+            }
+
+            &::before {
+                content: '';
+                height: 50px;
+                width: 25%;
+                position: absolute;
+                top: -50px;
+            }
+        }
+
+    }
+}
+
+//pagination
+
+.pagination {
+
+    a {
+        color: $dark;
+        float: left;
+        padding: 8px 16px;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: background-color .3s;
+        
+        &:active {
+            background-color: blueviolet;
+            color: white;
+        }
+        &:hover:not(.active) {
+            background-color: $primary-1;
+            color: $light;
+        }
+    }
+}
+//paginattion html
+/* <h3>pagination</h3>
+    <div class="pagination">
+        <a href="#"><</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">></a>
+    </div>
+    */
