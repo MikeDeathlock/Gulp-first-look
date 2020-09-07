@@ -1,0 +1,243 @@
+.bg-top-welcome {
+    background-color: $light;
+}
+
+.main-welcome{
+    padding: 8.0701% 0;
+    
+    .welcome-image {        
+        padding: 2px 40px 18px 50px;
+
+        .w-imagine {
+            background-color: $pr1-light-2;
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            span {
+                font-family: $font-regular;
+                font-size: 27px;
+                color: $pr1-dark-1;
+                text-transform: uppercase;
+                position: absolute;
+                left: 36%;
+                top: 20%;
+                z-index: 4;
+            }
+            img {
+                position: absolute;
+                bottom: 0px;
+                left: 20%;
+            }
+        }
+    }
+
+    .welcome-article {
+
+        a {
+            text-decoration: none;
+            color: $pr1-dark-1;
+            font-size: 15px;
+            font-family: $font-regular;
+        }
+        h1 {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding: 0;
+        }
+        p {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: none;
+        padding: 5px;
+
+        .welcome-article {
+        
+            a {
+                text-decoration: none;
+                color: $pr1-dark-1;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+            h1 {
+                margin-top: 30px;
+                margin-bottom: 20px;
+                padding: 0;
+                font-size: 27px;
+            }
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+
+        .main-welcome{
+            padding: 8.0701% 0;
+            
+            .welcome-image {        
+                padding: 2px 20px 18px 0px;
+        
+                .w-imagine {
+                    background-color: $pr1-light-2;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+        
+                    span {
+                        font-family: $font-regular;
+                        font-size: 27px;
+                        color: $pr1-dark-1;
+                        text-transform: uppercase;
+                        position: absolute;
+                        left: 30%;
+                        top: 49%;
+                        z-index: 4;
+                    }
+                    img {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 8%;
+                    }
+                }
+            }
+        
+            .welcome-article {
+        
+                a {
+                    text-decoration: none;
+                    color: $pr1-dark-1;
+                    font-size: 15px;
+                    font-family: $font-regular;
+                }
+                h1 {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    padding: 0;
+                }
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+
+        .main-welcome{
+            padding: 10% 0 8.0701% 0;
+            
+            .welcome-image {        
+                padding: 2px 40px 18px 50px;
+        
+                .w-imagine {
+                    background-color: $pr1-light-2;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+        
+                    span {
+                        font-family: $font-regular;
+                        font-size: 27px;
+                        color: $pr1-dark-1;
+                        text-transform: uppercase;
+                        position: absolute;
+                        left: 34%;
+                        top: 34%;
+                        z-index: 4;
+                    }
+                    img {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 14%;
+                    }
+                }
+            }
+        
+            .welcome-article {
+        
+                a {
+                    text-decoration: none;
+                    color: $pr1-dark-1;
+                    font-size: 15px;
+                    font-family: $font-regular;
+                }
+                h1 {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    padding: 0;
+                }
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+
+        .main-welcome{
+            padding: 8.0701% 0;
+            
+            .welcome-image {        
+                padding: 2px 40px 18px 50px;
+        
+                .w-imagine {
+                    background-color: $pr1-light-2;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+        
+                    span {
+                        font-family: $font-regular;
+                        font-size: 27px;
+                        color: $pr1-dark-1;
+                        text-transform: uppercase;
+                        position: absolute;
+                        left: 36%;
+                        top: 20%;
+                        z-index: 4;
+                    }
+                    img {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 20%;
+                    }
+                }
+            }
+        
+            .welcome-article {
+        
+                a {
+                    text-decoration: none;
+                    color: $pr1-dark-1;
+                    font-size: 15px;
+                    font-family: $font-regular;
+                }
+                h1 {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    padding: 0;
+                }
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
