@@ -16,11 +16,7 @@ h1 {
 
 h2 {
     @include heading(33px, $font-medium, $pr4-dark-2, 5px);
-
-    &:hover {
-        color: $light;
-        background-color: $primary-1;
-    }
+    
 }
 
 h3 {
@@ -365,6 +361,7 @@ input[type=radio]:checked:disabled+label::after {
 .btn-2 {
     @include btn(280px, $pr1-dark-1, 14px, $light);
     text-transform: capitalize;
+    transition: 1s;
 
     &:hover {
         background-color: $pr1-light-2;

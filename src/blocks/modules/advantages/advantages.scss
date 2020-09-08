@@ -1,0 +1,399 @@
+.bg-top-advantages {
+    background-color: $pr1-light-1;
+    background-image: url(../../../img/advantages-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-advantages {
+    padding-top: 4.824%;
+    padding-bottom: 7.894%;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $light;
+        font-size: 15px;
+        font-family: $font-regular;
+    }
+
+    h2 {
+        color: $light;
+        margin-bottom: 60px;
+        font-size: 33px;
+    }
+
+    .gen-advantages {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 55px;
+        box-sizing: border-box;
+
+        .advantages-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $light;
+            padding: 38px 45px 51px 45px;
+            margin: 0 15px 0 15px;
+            box-sizing: border-box;
+            flex: 1 1 31%;
+
+            .red-circle {
+                width: 86px;
+                height: 86px;
+                background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                border-radius: 50%;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    left: 13%;
+                    bottom: 0px;
+                }
+            }
+            h5 {
+                margin-top: 15px;
+                padding: 10px;
+                flex: 1 1 auto;
+            }
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: none;
+        padding: 5px;
+
+        .main-advantages {
+            padding-top: 4.824%;
+            padding-bottom: 7.894%;
+            text-align: center;
+        
+            a {
+                text-decoration: none;
+                color: $light;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+        
+            h2 {
+                color: $light;
+                margin-bottom: 30px;
+                font-size: 27px;
+            }
+        
+            .gen-advantages {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+        
+                .advantages-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $light;
+                    padding: 25px 20px 25px 20px;
+                    margin: 0 10px 30px 10px;
+                    box-sizing: border-box;
+                    flex: 1 1 60%;
+        
+                    .red-circle {
+                        width: 86px;
+                        height: 86px;
+                        background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                        border-radius: 50%;
+                        position: relative;
+        
+                        img {
+                            position: absolute;
+                            left: 13%;
+                            bottom: 0px;
+                        }
+                    }
+                    h5 {
+                        margin-top: 15px;
+                        padding: 10px;
+                        flex: 1 1 auto;
+                    }
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+
+        .main-advantages {
+            padding-top: 4.824%;
+            padding-bottom: 7.894%;
+            text-align: center;
+        
+            a {
+                text-decoration: none;
+                color: $light;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+        
+            h2 {
+                color: $light;
+                margin-bottom: 30px;
+                font-size: 27px;
+            }
+        
+            .gen-advantages {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+        
+                .advantages-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $light;
+                    padding: 25px 20px 25px 20px;
+                    margin: 0 10px 30px 10px;
+                    box-sizing: border-box;
+                    flex: 1 1 42%;
+        
+                    .red-circle {
+                        width: 86px;
+                        height: 86px;
+                        background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                        border-radius: 50%;
+                        position: relative;
+        
+                        img {
+                            position: absolute;
+                            left: 13%;
+                            bottom: 0px;
+                        }
+                    }
+                    h5 {
+                        margin-top: 15px;
+                        padding: 10px;
+                        flex: 1 1 auto;
+                    }
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+
+        .main-advantages {
+            padding-top: 4.824%;
+            padding-bottom: 7.894%;
+            text-align: center;
+        
+            a {
+                text-decoration: none;
+                color: $light;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+        
+            h2 {
+                color: $light;
+                margin-bottom: 30px;
+                font-size: 33px;
+            }
+        
+            .gen-advantages {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+        
+                .advantages-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $light;
+                    padding: 38px 35px 51px 35px;
+                    margin: 0 15px 30px 15px;
+                    box-sizing: border-box;
+                    flex: 1 1 38%;
+        
+                    .red-circle {
+                        width: 86px;
+                        height: 86px;
+                        background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                        border-radius: 50%;
+                        position: relative;
+        
+                        img {
+                            position: absolute;
+                            left: 13%;
+                            bottom: 0px;
+                        }
+                    }
+                    h5 {
+                        margin-top: 15px;
+                        padding: 10px;
+                        flex: 1 1 auto;
+                    }
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+
+        .main-advantages {
+            padding-top: 4.824%;
+            padding-bottom: 7.894%;
+            text-align: center;
+        
+            a {
+                text-decoration: none;
+                color: $light;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+        
+            h2 {
+                color: $light;
+                margin-bottom: 60px;
+                font-size: 33px;
+            }
+        
+            .gen-advantages {
+                display: flex;
+                justify-content: center;
+                flex-wrap: nowrap;
+                margin-bottom: 55px;
+                box-sizing: border-box;
+        
+                .advantages-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $light;
+                    padding: 38px 45px 51px 45px;
+                    margin: 0 15px 0 15px;
+                    box-sizing: border-box;
+                    flex: 1 1 31%;
+        
+                    .red-circle {
+                        width: 86px;
+                        height: 86px;
+                        background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                        border-radius: 50%;
+                        position: relative;
+        
+                        img {
+                            position: absolute;
+                            left: 13%;
+                            bottom: 0px;
+                        }
+                    }
+                    h5 {
+                        margin-top: 15px;
+                        padding: 10px;
+                        flex: 1 1 auto;
+                    }
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+
+        .main-advantages {
+            padding-top: 4.824%;
+            padding-bottom: 7.894%;
+            text-align: center;
+        
+            a {
+                text-decoration: none;
+                color: $light;
+                font-size: 15px;
+                font-family: $font-regular;
+            }
+        
+            h2 {
+                color: $light;
+                margin-bottom: 60px;
+                font-size: 33px;
+            }
+        
+            .gen-advantages {
+                display: flex;
+                justify-content: center;
+                flex-wrap: nowrap;
+                margin-bottom: 55px;
+                box-sizing: border-box;
+                
+        
+                .advantages-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $light;
+                    padding: 38px 45px 51px 45px;
+                    margin: 0 15px 0 15px;
+                    box-sizing: border-box;
+                    flex: 1 1 31%;
+        
+                    .red-circle {
+                        width: 86px;
+                        height: 86px;
+                        background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
+                        border-radius: 50%;
+                        position: relative;
+        
+                        img {
+                            position: absolute;
+                            left: 13%;
+                            bottom: 0px;
+                        }
+                    }
+                    h5 {
+                        margin-top: 15px;
+                        padding: 10px;
+                        flex: 1 1 auto;
+                    }
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
