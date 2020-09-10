@@ -1,5 +1,5 @@
 .bg-top-advantages {
-    background-color: $pr1-light-1;
+    background-color: $primary-1;
     background-image: url(../../../img/advantages-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -16,6 +16,11 @@
         color: $light;
         font-size: 15px;
         font-family: $font-regular;
+        transition: 1s;
+
+        &:hover {
+            color: $primary-3;
+        }
     }
 
     h2 {
@@ -54,11 +59,13 @@
                     bottom: 0px;
                 }
             }
+
             h5 {
                 margin-top: 15px;
                 padding: 10px;
                 flex: 1 1 auto;
             }
+
             p {
                 margin-top: 10px;
             }
@@ -75,27 +82,32 @@
             padding-top: 4.824%;
             padding-bottom: 7.894%;
             text-align: center;
-        
+
             a {
                 text-decoration: none;
                 color: $light;
                 font-size: 15px;
                 font-family: $font-regular;
+                transition: 1s;
+
+                &:hover {
+                    color: $primary-3;
+                }
             }
-        
+
             h2 {
                 color: $light;
                 margin-bottom: 30px;
                 font-size: 27px;
             }
-        
+
             .gen-advantages {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
                 margin-bottom: 10px;
                 box-sizing: border-box;
-        
+
                 .advantages-item {
                     display: flex;
                     flex-direction: column;
@@ -105,25 +117,27 @@
                     margin: 0 10px 30px 10px;
                     box-sizing: border-box;
                     flex: 1 1 60%;
-        
+
                     .red-circle {
                         width: 86px;
                         height: 86px;
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
-        
+
                         img {
                             position: absolute;
                             left: 13%;
                             bottom: 0px;
                         }
                     }
+
                     h5 {
                         margin-top: 15px;
                         padding: 10px;
                         flex: 1 1 auto;
                     }
+
                     p {
                         margin-top: 10px;
                     }
@@ -141,27 +155,32 @@
             padding-top: 4.824%;
             padding-bottom: 7.894%;
             text-align: center;
-        
+
             a {
                 text-decoration: none;
                 color: $light;
                 font-size: 15px;
                 font-family: $font-regular;
+                transition: 1s;
+
+                &:hover {
+                    color: $primary-3;
+                }
             }
-        
+
             h2 {
                 color: $light;
                 margin-bottom: 30px;
                 font-size: 27px;
             }
-        
+
             .gen-advantages {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
                 margin-bottom: 10px;
                 box-sizing: border-box;
-        
+
                 .advantages-item {
                     display: flex;
                     flex-direction: column;
@@ -171,25 +190,27 @@
                     margin: 0 10px 30px 10px;
                     box-sizing: border-box;
                     flex: 1 1 42%;
-        
+
                     .red-circle {
                         width: 86px;
                         height: 86px;
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
-        
+
                         img {
                             position: absolute;
                             left: 13%;
                             bottom: 0px;
                         }
                     }
+
                     h5 {
                         margin-top: 15px;
                         padding: 10px;
                         flex: 1 1 auto;
                     }
+
                     p {
                         margin-top: 10px;
                     }
@@ -207,27 +228,32 @@
             padding-top: 4.824%;
             padding-bottom: 7.894%;
             text-align: center;
-        
+
             a {
                 text-decoration: none;
                 color: $light;
                 font-size: 15px;
                 font-family: $font-regular;
+                transition: 1s;
+
+                &:hover {
+                    color: $primary-3;
+                }
             }
-        
+
             h2 {
                 color: $light;
                 margin-bottom: 30px;
                 font-size: 33px;
             }
-        
+
             .gen-advantages {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
                 margin-bottom: 10px;
                 box-sizing: border-box;
-        
+
                 .advantages-item {
                     display: flex;
                     flex-direction: column;
@@ -237,25 +263,27 @@
                     margin: 0 15px 30px 15px;
                     box-sizing: border-box;
                     flex: 1 1 38%;
-        
+
                     .red-circle {
                         width: 86px;
                         height: 86px;
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
-        
+
                         img {
                             position: absolute;
                             left: 13%;
                             bottom: 0px;
                         }
                     }
+
                     h5 {
                         margin-top: 15px;
                         padding: 10px;
                         flex: 1 1 auto;
                     }
+
                     p {
                         margin-top: 10px;
                     }
@@ -273,27 +301,32 @@
             padding-top: 4.824%;
             padding-bottom: 7.894%;
             text-align: center;
-        
+
             a {
                 text-decoration: none;
                 color: $light;
                 font-size: 15px;
                 font-family: $font-regular;
+                transition: 1s;
+
+                &:hover {
+                    color: $primary-3;
+                }
             }
-        
+
             h2 {
                 color: $light;
                 margin-bottom: 60px;
                 font-size: 33px;
             }
-        
+
             .gen-advantages {
                 display: flex;
                 justify-content: center;
                 flex-wrap: nowrap;
                 margin-bottom: 55px;
                 box-sizing: border-box;
-        
+
                 .advantages-item {
                     display: flex;
                     flex-direction: column;
@@ -303,25 +336,27 @@
                     margin: 0 15px 0 15px;
                     box-sizing: border-box;
                     flex: 1 1 31%;
-        
+
                     .red-circle {
                         width: 86px;
                         height: 86px;
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
-        
+
                         img {
                             position: absolute;
                             left: 13%;
                             bottom: 0px;
                         }
                     }
+
                     h5 {
                         margin-top: 15px;
                         padding: 10px;
                         flex: 1 1 auto;
                     }
+
                     p {
                         margin-top: 10px;
                     }
@@ -339,28 +374,33 @@
             padding-top: 4.824%;
             padding-bottom: 7.894%;
             text-align: center;
-        
+
             a {
                 text-decoration: none;
                 color: $light;
                 font-size: 15px;
                 font-family: $font-regular;
+                transition: 1s;
+
+                &:hover {
+                    color: $primary-3;
+                }
             }
-        
+
             h2 {
                 color: $light;
                 margin-bottom: 60px;
                 font-size: 33px;
             }
-        
+
             .gen-advantages {
                 display: flex;
                 justify-content: center;
                 flex-wrap: nowrap;
                 margin-bottom: 55px;
                 box-sizing: border-box;
-                
-        
+
+
                 .advantages-item {
                     display: flex;
                     flex-direction: column;
@@ -370,25 +410,27 @@
                     margin: 0 15px 0 15px;
                     box-sizing: border-box;
                     flex: 1 1 31%;
-        
+
                     .red-circle {
                         width: 86px;
                         height: 86px;
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
-        
+
                         img {
                             position: absolute;
                             left: 13%;
                             bottom: 0px;
                         }
                     }
+
                     h5 {
                         margin-top: 15px;
                         padding: 10px;
                         flex: 1 1 auto;
                     }
+
                     p {
                         margin-top: 10px;
                     }

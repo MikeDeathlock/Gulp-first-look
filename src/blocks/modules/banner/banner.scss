@@ -73,6 +73,10 @@
                             border-bottom: 2px solid $primary-2;
                             left: 0;
                         }
+                        &:nth-child(1)::before {
+                            border-bottom: 2px solid $primary-2;
+                            left: 0;    
+                        }
             
                         &:nth-child(2)::before {
                             border-bottom: 2px solid $primary-2;
@@ -145,9 +149,9 @@
         img {
             max-width: 325px;
             position: absolute;
-            left: -50px;
-            top: -55px;
+            left: -50px;    
             z-index: 5;
+            bottom: -100px;
         }
     }
     .banner-select {
@@ -717,7 +721,7 @@
                     max-width: 280px;
                     position: absolute;
                     left: -50px;
-                    top: -15px;
+                    bottom: -33px;
                     z-index: 5;
                 }
             }
@@ -994,7 +998,7 @@
                     max-width: 275px;
                     position: absolute;
                     left: -50px;
-                    top: -58px;
+                    bottom: -44px;
                     z-index: 5;
                 }
             }
@@ -1270,9 +1274,9 @@
                 img {
                     max-width: 325px;
                     position: absolute;
-                    left: -50px;
-                    top: -55px;
+                    left: -50px;    
                     z-index: 5;
+                    bottom: -100px;
                 }
             }
             .banner-select {

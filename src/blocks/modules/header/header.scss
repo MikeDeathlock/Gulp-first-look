@@ -101,11 +101,13 @@
             width: 100px;
             height: 40px;
             text-transform: uppercase;
+            transition: 1s;
         }
 
         .btn-1-sm {
             width: 100px;
             height: 40px;
+            transition: 1s;
         }
 
 
@@ -163,6 +165,7 @@
     height: 3px;
     background-color: $light;
     position: relative;
+    transition: 1s;
 
     &::before {
         content: '';
@@ -182,6 +185,18 @@
         background-color: $light;
         position: absolute;
         top: 7px;
+    }
+
+    &:hover {
+        background-color: $primary-3;
+    }
+
+    &:hover::before {
+        background-color: $primary-3;
+    }
+
+    &:hover::after {
+        background-color: $primary-3;
     }
 }
 
@@ -263,11 +278,13 @@
                 width: 100px;
                 height: 40px;
                 text-transform: uppercase;
+                transition: 1s;
             }
     
             .btn-1-sm {
                 width: 100px;
                 height: 40px;
+                transition: 1s;
             }
     
     
@@ -390,11 +407,13 @@
                 width: 100px;
                 height: 40px;
                 text-transform: uppercase;
+                transition: 1s;
             }
 
             .btn-1-sm {
                 width: 100px;
                 height: 40px;
+                transition: 1s;
             }
 
 
@@ -452,6 +471,7 @@
         height: 3px;
         background-color: $light;
         position: relative;
+        transition: 1s;
 
         &::before {
             content: '';
@@ -471,6 +491,18 @@
             background-color: $light;
             position: absolute;
             top: 7px;
+        }
+
+        &:hover {
+            background-color: $primary-3;
+        }
+
+        &:hover::before {
+            background-color: $primary-3;
+        }
+
+        &:hover::after {
+            background-color: $primary-3;
         }
     }
 }
