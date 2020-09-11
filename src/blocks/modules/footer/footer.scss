@@ -1,0 +1,773 @@
+.bg-top-footer {
+    background-color: $primary-1;
+}
+
+.top-footer {
+    padding-top: 1.7543%;
+    padding-bottom: 2.4561%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid $pr1-light-1;
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 0px;
+        padding: 0;
+
+        .logo {
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+
+            .logo-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 10px;
+
+                .first-logo-text {
+                    font-family: $font-fourth-regular;
+                    font-size: 39px;
+                    color: $light;
+                    margin: 0;
+                    height: 40px;
+                    transition: 1s;
+
+                    &:hover {
+                        color: $primary-3;
+                    }
+
+
+                    .essay-ye {
+                        font-family: $font-regular;
+                        font-size: 20px;
+                        color: $primary-3;
+                        text-transform: uppercase;
+                    }
+
+                    .net {
+                        font-family: $font-regular;
+                        font-size: 13px;
+                    }
+                }
+
+                .second-logo-text {
+                    font-family: $font-regular;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    color: $light;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                margin-right: 30px;
+                padding: 10px;
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: $light;
+                    font-family: $font-semibold;
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    transition: 1s;
+
+                    &:hover {
+                        color: $primary-3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-footer {
+    padding-top: 4.3859%;
+    padding-bottom: 4.3859%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid $pr1-light-1;
+
+    .main-footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        
+        h5 {
+            font-size: 16px;
+            color: $light;
+            margin-bottom: 30px;
+            padding: 0;            
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 28px;
+            color: $light;       
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: none;
+        padding: 5px;
+
+        .top-footer {
+            padding-top: 1.7543%;
+            padding-bottom: 2.4561%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .footer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 15px;
+                padding: 0;
+        
+                .logo {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+        
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 10px;
+        
+                        .first-logo-text {
+                            font-family: $font-fourth-regular;
+                            font-size: 39px;
+                            color: $light;
+                            margin: 0;
+                            height: 40px;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+        
+        
+                            .essay-ye {
+                                font-family: $font-regular;
+                                font-size: 20px;
+                                color: $primary-3;
+                                text-transform: uppercase;
+                            }
+        
+                            .net {
+                                font-family: $font-regular;
+                                font-size: 13px;
+                            }
+                        }
+        
+                        .second-logo-text {
+                            font-family: $font-regular;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            color: $light;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .footer-nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+        
+                ul {
+                    list-style-type: none;
+        
+                    li {
+                        margin-right: 20px;
+                        padding: 6px;
+                        display: inline-block;
+        
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-family: $font-semibold;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-transform: uppercase;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-footer {
+            padding-top: 4.3859%;
+            padding-bottom: 4.3859%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .main-footer-item {
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                
+                h5 {
+                    font-size: 16px;
+                    color: $light;
+                    margin-bottom: 30px;
+                    padding: 0;            
+                }
+        
+                p {
+                    font-size: 13px;
+                    line-height: 28px;
+                    color: $light;       
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+
+        .top-footer {
+            padding-top: 1.7543%;
+            padding-bottom: 2.4561%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .footer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 15px;
+                padding: 0;
+        
+                .logo {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+        
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 10px;
+        
+                        .first-logo-text {
+                            font-family: $font-fourth-regular;
+                            font-size: 39px;
+                            color: $light;
+                            margin: 0;
+                            height: 40px;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+        
+        
+                            .essay-ye {
+                                font-family: $font-regular;
+                                font-size: 20px;
+                                color: $primary-3;
+                                text-transform: uppercase;
+                            }
+        
+                            .net {
+                                font-family: $font-regular;
+                                font-size: 13px;
+                            }
+                        }
+        
+                        .second-logo-text {
+                            font-family: $font-regular;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            color: $light;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .footer-nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+        
+                ul {
+                    list-style-type: none;
+        
+                    li {
+                        margin-right: 10px;
+                        padding: 3px;
+                        display: inline-block;
+        
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-family: $font-semibold;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-transform: uppercase;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-footer {
+            padding-top: 4.3859%;
+            padding-bottom: 4.3859%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .main-footer-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                
+                h5 {
+                    font-size: 16px;
+                    color: $light;
+                    margin-bottom: 30px;
+                    padding: 0;            
+                }
+        
+                p {
+                    font-size: 13px;
+                    line-height: 28px;
+                    color: $light;       
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+
+        .top-footer {
+            padding-top: 1.7543%;
+            padding-bottom: 2.4561%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .footer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 15px;
+                padding: 0;
+        
+                .logo {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+        
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 10px;
+        
+                        .first-logo-text {
+                            font-family: $font-fourth-regular;
+                            font-size: 39px;
+                            color: $light;
+                            margin: 0;
+                            height: 40px;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+        
+        
+                            .essay-ye {
+                                font-family: $font-regular;
+                                font-size: 20px;
+                                color: $primary-3;
+                                text-transform: uppercase;
+                            }
+        
+                            .net {
+                                font-family: $font-regular;
+                                font-size: 13px;
+                            }
+                        }
+        
+                        .second-logo-text {
+                            font-family: $font-regular;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            color: $light;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .footer-nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+        
+                ul {
+                    list-style-type: none;
+        
+                    li {
+                        margin-right: 20px;
+                        padding: 6px;
+                        display: inline-block;
+        
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-family: $font-semibold;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-transform: uppercase;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-footer {
+            padding-top: 4.3859%;
+            padding-bottom: 4.3859%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .main-footer-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                
+                h5 {
+                    font-size: 16px;
+                    color: $light;
+                    margin-bottom: 30px;
+                    padding: 0;            
+                }
+        
+                p {
+                    font-size: 13px;
+                    line-height: 28px;
+                    color: $light;       
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+
+        .top-footer {
+            padding-top: 1.7543%;
+            padding-bottom: 2.4561%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .footer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 0px;
+                padding: 0;
+        
+                .logo {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+        
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 10px;
+        
+                        .first-logo-text {
+                            font-family: $font-fourth-regular;
+                            font-size: 39px;
+                            color: $light;
+                            margin: 0;
+                            height: 40px;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+        
+        
+                            .essay-ye {
+                                font-family: $font-regular;
+                                font-size: 20px;
+                                color: $primary-3;
+                                text-transform: uppercase;
+                            }
+        
+                            .net {
+                                font-family: $font-regular;
+                                font-size: 13px;
+                            }
+                        }
+        
+                        .second-logo-text {
+                            font-family: $font-regular;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            color: $light;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .footer-nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+        
+                ul {
+                    list-style-type: none;
+        
+                    li {
+                        margin-right: 20px;
+                        padding: 6px;
+                        display: inline-block;
+        
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-family: $font-semibold;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-transform: uppercase;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-footer {
+            padding-top: 4.3859%;
+            padding-bottom: 4.3859%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .main-footer-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                
+                h5 {
+                    font-size: 16px;
+                    color: $light;
+                    margin-bottom: 30px;
+                    padding: 0;            
+                }
+        
+                p {
+                    font-size: 13px;
+                    line-height: 28px;
+                    color: $light;       
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+
+        .top-footer {
+            padding-top: 1.7543%;
+            padding-bottom: 2.4561%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .footer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 0px;
+                padding: 0;
+        
+                .logo {
+                    display: flex;
+                    text-decoration: none;
+                    align-items: center;
+        
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-left: 10px;
+        
+                        .first-logo-text {
+                            font-family: $font-fourth-regular;
+                            font-size: 39px;
+                            color: $light;
+                            margin: 0;
+                            height: 40px;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+        
+        
+                            .essay-ye {
+                                font-family: $font-regular;
+                                font-size: 20px;
+                                color: $primary-3;
+                                text-transform: uppercase;
+                            }
+        
+                            .net {
+                                font-family: $font-regular;
+                                font-size: 13px;
+                            }
+                        }
+        
+                        .second-logo-text {
+                            font-family: $font-regular;
+                            font-size: 13px;
+                            text-transform: capitalize;
+                            color: $light;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .footer-nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+        
+                ul {
+                    list-style-type: none;
+        
+                    li {
+                        margin-right: 30px;
+                        padding: 10px;
+                        display: inline-block;
+        
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-family: $font-semibold;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-transform: uppercase;
+                            transition: 1s;
+        
+                            &:hover {
+                                color: $primary-3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-footer {
+            padding-top: 4.3859%;
+            padding-bottom: 4.3859%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $pr1-light-1;
+        
+            .main-footer-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                
+                h5 {
+                    font-size: 16px;
+                    color: $light;
+                    margin-bottom: 30px;
+                    padding: 0;            
+                }
+        
+                p {
+                    font-size: 13px;
+                    line-height: 28px;
+                    color: $light;       
+                }
+            }
+        }
+    }
+}
