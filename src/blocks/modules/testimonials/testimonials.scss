@@ -145,6 +145,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: flex-end;
+                    transition: 1s;
+
+                    &:hover {
+                        background-color: $primary-2;
+                    }
                 }
 
                 p {
@@ -546,6 +551,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: flex-end;
+                    transition: 1s;
+
+                    &:hover {
+                        background-color: $primary-2;
+                    }
                 }
 
                 p {

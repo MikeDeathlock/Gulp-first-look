@@ -52,6 +52,11 @@
                 background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                 border-radius: 50%;
                 position: relative;
+                transition: 1s;
+
+                &:hover {
+                    background: linear-gradient(90deg, $primary-2, $primary-2 50%, $pr2-dark-1 50%);
+                }
 
                 img {
                     position: absolute;
@@ -270,6 +275,11 @@
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
+                        transition: 1s;
+
+                        &:hover {
+                            background: linear-gradient(90deg, $primary-2, $primary-2 50%, $pr2-dark-1 50%);
+                        }
 
                         img {
                             position: absolute;
@@ -343,6 +353,11 @@
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
+                        transition: 1s;
+
+                        &:hover {
+                            background: linear-gradient(90deg, $primary-2, $primary-2 50%, $pr2-dark-1 50%);
+                        }
 
                         img {
                             position: absolute;
@@ -417,6 +432,11 @@
                         background: linear-gradient(90deg, $pr2-light-1, $pr2-light-1 50%, $primary-2 50%);
                         border-radius: 50%;
                         position: relative;
+                        transition: 1s;
+
+                        &:hover {
+                            background: linear-gradient(90deg, $primary-2, $primary-2 50%, $pr2-dark-1 50%);
+                        }
 
                         img {
                             position: absolute;
